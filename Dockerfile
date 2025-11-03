@@ -1,0 +1,1 @@
+Creates the Dockerfile in your project's root directory. This is the recipe Cloud Build uses to package your application. It defines a two-stage process: first, it builds your React code into static files, and second, it places those files into a lightweight NGINX web server, ready for production.
